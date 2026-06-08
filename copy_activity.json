@@ -1,0 +1,10 @@
+{
+  "name": "CopyCustomerData",
+  "type": "Copy",
+  "source": {
+    "type": "AzureSqlSource"
+  },
+  "sink": {
+    "type": "DelimitedTextSink"
+  }
+}
